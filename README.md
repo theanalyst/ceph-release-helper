@@ -14,5 +14,5 @@ Now invoke this as
 
 ```sh
 GITHUB_ACCESS_TOKEN='something' # Generate a gh access token and put it as a var
-ceph-release-notes -r tags/v0.87..giant /path/to/ceph/repo 
+ceph_release_notes -r tags/v0.87..giant /path/to/ceph/repo 
 ```
