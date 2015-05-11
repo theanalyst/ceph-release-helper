@@ -10,7 +10,7 @@ from git import Repo
 
 
 merge_re = re.compile("Merge pull request #(\d+).*")
-fixes_re = re.compile("Fixes (#\d+)")
+fixes_re = re.compile(r"Fixes\:? #(\d+)")
 tracker_re = re.compile("http://tracker.ceph.com/issues/(\d+)")
 signed_off_re = re.compile("Signed-off-by: (.+) <")
 
